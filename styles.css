@@ -1384,8 +1384,10 @@ body {
     
     /* Ensure hero section starts below mobile header */
     .hero {
-        padding-top: 20px !important;
-        min-height: calc(100vh - 60px) !important;
+        padding-top: 100px !important;
+        min-height: auto !important;
+        align-items: flex-start !important;
+        height: auto !important;
     }
     
     .hero-container {
